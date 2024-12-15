@@ -56,7 +56,7 @@ jobs:
           name: SantanderJailed
           path: ${{ github.workspace }}/build/SantanderJailed.ipa
 
-      - name: Upload IPA for TrollStore
+      - name: Upload IPA for TrollStore 
         uses: actions/upload-artifact@v3.1.0
         with:
           name: SantanderTrollStore
